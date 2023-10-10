@@ -1,0 +1,33 @@
+@import 'Begin.css';
+
+@import 'Project.css';
+
+@import 'Catalog.css';
+
+@import 'Arent.css';
+
+@import 'News.css';
+
+@import 'Footer.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header {
+    color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 91, 193, 0.6);
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,130 @@
+.Progect {
+    height: 520px;
+    margin: 150px;
+}
+
+.project_logo {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lines_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 0px;
+    border: 3px solid #005BC1;
+}
+
+.line2 {
+    margin-top: 13px;
+    width: 50px;
+    height: 0px;
+    border: 3px solid #005BC1;
+}
+
+.project_text h2 {
+    margin-left: 40px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.buttons button {
+
+    font-size: 200%;
+    color: blue;
+    border: 2px solid #005BC1;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+
+    background-image: none;
+    background: transparent;
+}
+
+.project_content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1 {
+    width: 540px;
+    height: 400px;
+    background-image: url('../img/Rectangle 4.png')
+}
+
+.content2 {
+    width: 540px;
+    height: 400px;
+    background-image: url('../img/Rectangle 5.png')
+}
+
+.content1 .content2 .show {
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.content1_text {
+    width: 250px;
+    height: 110px;
+    padding: 20px 25px;
+    margin: 275px 35px 35px 280px;
+    background: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.content2_text {
+    width: 250px;
+    height: 110px;
+    padding: 20px 25px;
+    margin: 275px 35px 35px 280px;
+    background: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.content1_text h4 {
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.content2_text h4 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

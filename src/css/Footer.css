@@ -1,0 +1,62 @@
+footer {
+    width: 100%;
+    height: 255px;
+    background: #005BC1;
+    color: #FFFFFF;
+}
+
+.footer_top {
+    padding-top: 36px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_centre {
+    height: 98px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_centre li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+
+.footer_centre1 {
+    width: 33%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer_centre2 {
+    width: 33%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer_centre3 {
+    width: 33%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer_bottom {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

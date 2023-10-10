@@ -1,0 +1,83 @@
+.text_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 108px;
+}
+
+.arent_text {
+    width: 445px;
+    padding-right: 95px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.arent_content {
+    width: 665px;
+    height: 394px;
+    border: 3px solid #005BC1;
+    box-sizing: border-box;
+}
+
+.arent_explanation {
+    padding: 30px 30px 29px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.foto_descr {
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto_descr img {
+    width: 255px;
+    height: 250px;
+}
+
+.description {
+    padding-left: 30px;
+    height: 250px;
+}
+
+.description ul {
+    padding-left: 16px;
+}
+
+.description li {
+    margin-bottom: 17px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.description h4 {
+    margin-bottom: 30px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
